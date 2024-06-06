@@ -4,8 +4,7 @@ import { Text, View, StyleSheet, Button } from "react-native";
 export default function Lancados({ navigation}) {
   return (
     <View style={styles.container}>
-      <Text>Lançados</Text>
-      <Button title="Voltar" onPress={() => navigation.navigate('Registrar')} />
+      <Button title="Registrar" onPress={() => navigation.navigate('Registrar')} />
     </View>
   );
 }
